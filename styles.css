@@ -1,12 +1,11 @@
 .flexbox-container  div{
     width: 100%;
     margin: auto;
-    padding: 35px 0;
+    padding: 0;
     display: flex;
     background-color: #1F2937;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .flexbox-container p{
@@ -25,6 +24,38 @@
     color: white;
     align-items: center;
 }
+.flexbox-container2{
+    width: 100%;
+    margin:auto;
+    display: flexbox;
+    background-color: #1F2937;
+    position: relative;
+}
+.flexbox-container2 h1{
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 48px;
+    align-items: left;
+}
+.flexbox-container2 p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.flexbox-container2 cat{
+    position: absolute;
+    right: 0%;
+}
+
+.flexbox-container3 div{
+    width: 100%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+}
+
+.flexbox-container3  p{
+    color: blue;
+}
 .flexbox-container4 div{
     width: 100%;
 }
@@ -33,4 +64,18 @@
     font-family: light italic;
     color: #1F2937;
     text-align: center;
+}
+
+.flexbox-container5 {
+    display: flex;
+}
+
+.flexbox-container5 box4 div{
+    width: auto;
+    margin: auto;
+    background-color: blue;
+}
+
+.flexbox-container5 box4 h p{
+    color:white;
 }
