@@ -1,0 +1,36 @@
+.flexbox-container  div{
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.flexbox-container p{
+    color: white;
+}
+
+.Header ul li{
+    list-style:none;
+    font-size: 20px;
+    display: inline;
+    margin: 0 20px;
+}
+
+.Header ul li a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+.flexbox-container4 div{
+    width: 100%;
+}
+.flexbox-container4 p{
+    font-size: 26px;
+    font-family: light italic;
+    color: #1F2937;
+    text-align: center;
+}
