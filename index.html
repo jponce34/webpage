@@ -7,6 +7,7 @@
     </head>
 
     <body>
+        <!--flexbox for header-->
         <div class="flexbox-container">
             <div class="Header">
                 <p>Head logo</p><!--image for logo here-->
@@ -18,44 +19,56 @@
             </div>
         </div>
 
+        <!--flexbox for hero text and pic-->
         <div class="flexbox-container2">
-            <h1>This website is awesome</h1>
+            <div class="hero">
+                <h1>This website is awesome</h1>
             <p>This website is a fun website to pratice some flexbox and css</p>
-            <img class="cat" src="images/cat.jpg" width="300" height="300">
             <button type="button">Sign up</button>
-        
+            </div>
+            <img class="cat" src="images/cat.jpg" width="300" height="300">
         </div>
-        
-        <div class="flexbox-container3"><h1>some randon information</h1>
-            <div class="box1">
-                <img class="pic" src="" width="100" height="100">
-                <p>this is some subtext under the illustration or image</p>
-            </div>
-            <div class="box2">
-                <img class="pic2" src="" width="100" height="100">
-                <p>this is some subtext under the illustration or image</p>
-            </div>
-            <div class="box3">
-                <img class="pic3" src="" width="100" height="100">
-                <p>this is some subtext under the illustration or image</p>
-            </div>
-            <div class="box3">
-                <img class="pic4" src="" width="100" height="100">
-                <p>this is some subtext under the illustration or image</p>
-            </div>
-        </div>
-        
 
+        <!--the 3rd box with 4 images-->
+        <div class="flexbox-container3">
+            <div class="header">
+                <h1>some randon information</h1>
+            </div>
+            <div class="pictures">
+                <div class="box1">
+                    <img class="pic" src="" width="100" height="100">
+                    <p>this is some subtext under the illustration or image</p>
+                </div>
+                <div class="box2">
+                    <img class="pic2" src="" width="100" height="100">
+                    <p>this is some subtext under the illustration or image</p>
+                </div>
+                <div class="box3">
+                    <img class="pic3" src="" width="100" height="100">
+                    <p>this is some subtext under the illustration or image</p>
+                </div>
+                <div class="box3">
+                    <img class="pic4" src="" width="100" height="100">
+                    <p>this is some subtext under the illustration or image</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--flexbox for quote-->
         <div class="flexbox-container4">
             <p>Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma  
                 which is living with the results of other people's thinking. <br>-Steve Jobs</p>
         </div>
         
+        <!--flexbox for call to action and button-->
         <div class="flexbox-container5">
             <div class="box4">
                 <h1>call to action! Its time!</h1>
                 <p1>sign up for our product by clicking that button right over there!</p1>
-                <button type="button">Sign Up</button>
+            </div>
+            <!--child box for button-->
+            <div class="btn">
+                <button type="button">sign up</button>
             </div>
         </div>
     </body>

@@ -1,13 +1,17 @@
 .flexbox-container  div{
     width: 100%;
-    margin: auto;
-    padding: 0;
+    margin-right: auto;
+    padding: 10px;
     display: flex;
     background-color: #1F2937;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
-
+.hero button{
+    background-color: blue;
+    color: white;
+    border-color: none;
+}
 .flexbox-container p{
     color: white;
 }
@@ -26,10 +30,11 @@
 }
 .flexbox-container2{
     width: 100%;
-    margin:auto;
-    display: flexbox;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #1F2937;
-    position: relative;
 }
 .flexbox-container2 h1{
     color: #F9FAF8;
@@ -46,36 +51,58 @@
     right: 0%;
 }
 
-.flexbox-container3 div{
+.flexbox-container3 {
     width: 100%;
     margin:auto;
-    display: flex;
-    align-items: center;
+    display: column;
+    justify-content: space-between;
 }
 
 .flexbox-container3  p{
     color: blue;
 }
-.flexbox-container4 div{
-    width: 100%;
+.header{
+    align-items: center;
+    justify-content: center;
 }
+.pictures {
+    display: flex;
+    margin: auto;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.flexbox-container4 {
+    display:flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #E5E7Eb;
+}
+
 .flexbox-container4 p{
-    font-size: 26px;
+    font-size: 36px;
     font-family: light italic;
-    color: #1F2937;
-    text-align: center;
+    color:#1F2937;
 }
 
 .flexbox-container5 {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.flexbox-container5 box4 div{
-    width: auto;
-    margin: auto;
+.box4 {
     background-color: blue;
 }
 
-.flexbox-container5 box4 h p{
+.btn div{
+    background-color: blue;
+}
+.btn button{
+    color: white;
+    background-color: blue;
+}
+
+ .flexbox-container5 div{
     color:white;
 }
