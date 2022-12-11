@@ -59,11 +59,10 @@
 }
 
 .flexbox-container3  p{
-    color: blue;
+    color: #E5E7EB;
 }
-.header{
-    align-items: center;
-    justify-content: center;
+.header h1{
+    text-align: center; 
 }
 .pictures {
     display: flex;
@@ -92,14 +91,28 @@
 }
 
 .box4 {
+    padding: auto;
+    width: 30%;
     background-color: blue;
 }
 
-.btn div{
+.box4 h1{
+    text-align: center;
+}
+
+.box4 p{
+    text-align: center;
+}
+
+.btn {
+    height: 115px;
+    display: flex;
+    align-items: center;
     background-color: blue;
 }
 .btn button{
     color: white;
+    border-color: white;
     background-color: blue;
 }
 
